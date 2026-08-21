@@ -1,6 +1,6 @@
-# 企业私有知识库RAG问答系统｜AI‑FDE实战项目
-> GitHub实战项目，端到端RAG应用
-> 基于LangChain实现完整RAG链路，控制台交互，不依赖Web UI，降低Windows环境兼容问题
+# 企业私有知识库RAG问答系统
+> 端到端RAG应用
+> 基于LangChain实现完整RAG链路，控制台交互，
 
 ## ✨项目功能
 1. 文档解析：支持PDF/TXT/Markdown文档自动加载，异常文件容错跳过
