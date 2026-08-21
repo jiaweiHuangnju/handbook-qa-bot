@@ -14,7 +14,7 @@ from config import *
 
 
 def load_documents(folder_path: str):
-    """加载docs文件夹下面所有pdf、docx、txt文档，容错跳过损坏文件"""
+    """加载docs文件夹下面所有pdf、txt文档，容错跳过损坏文件"""
     docs = []
     if not os.path.exists(folder_path):
         print(f"⚠️文件夹 {folder_path} 不存在")
