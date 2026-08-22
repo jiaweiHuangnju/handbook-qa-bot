@@ -3,7 +3,7 @@
 > 基于LangChain实现完整RAG链路，控制台交互，
 
 ## ✨项目功能
-1. 文档解析：支持PDF/TXT/Markdown文档自动加载，异常文件容错跳过
+1. 文档解析：支持PDF/TXT文档自动加载，异常文件容错跳过
 2. 文本切片：RecursiveCharacterTextSplitter，自定义chunk_size、overlap分割文档
 3. 向量化与向量库：sentence‑transformers Embedding，Chroma本地向量数据库持久化存储
 4. RAG检索增强问答：基于私有知识库回答，约束大模型幻觉；采用ChatPromptTemplate区分System角色与用户上下文；知识库无信息时禁止编造输出
